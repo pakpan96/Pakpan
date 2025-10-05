@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>پاک‌پن — به‌زودی</title>
+  <meta name="description" content="پاک‌پن؛ ارائه سیستم‌های خورشیدی. به‌زودی با ما روشنایی آینده را تجربه کنید.">
+  <style>
+    /* Simple, clean RTL styling */
+    :root{
+      --bg:#0f1724;
+      --card:#0b1220;
+      --accent:#f6bf2d;
+      --muted:#9aa4b2;
+      --white:#ffffff;
+      --glass: rgba(255,255,255,0.03);
+    }
+    html,body{height:100%;margin:0;font-family: "Vazirmatn", "Tahoma", sans-serif;background:
+      linear-gradient(180deg,#071023 0%, #0f1724 100%); color:var(--white);}
+    .wrap{min-height:100%;display:flex;align-items:center;justify-content:center;padding:40px;}
+    .card{max-width:900px;width:100%;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:16px;padding:28px;box-shadow:0 10px 30px rgba(2,6,23,0.6);display:grid;grid-template-columns:1fr 360px;gap:24px;align-items:center;}
+    .brand{display:flex;flex-direction:column;gap:18px;padding:8px;}
+    .logo{
+      display:flex;align-items:center;gap:12px;
+    }
+    .logo svg{width:84px;height:84px;flex-shrink:0}
+    h1{margin:0;font-size:28px;letter-spacing:0.2px}
+    p.lead{margin:0;color:var(--muted);line-height:1.6}
+    .kpis{display:flex;gap:12px;margin-top:10px;flex-wrap:wrap}
+    .kpi{background:var(--glass);padding:10px 12px;border-radius:10px;font-size:14px;color:var(--muted)}
+    .right{
+      background:linear-gradient(180deg, rgba(246,191,45,0.06), rgba(246,191,45,0.02));
+      border-radius:12px;padding:18px;height:100%;display:flex;flex-direction:column;justify-content:center;align-items:center;color:var(--bg);
+    }
+    .count{font-size:40px;font-weight:700;color:var(--accent);margin-bottom:6px}
+    .sub{color:var(--muted);margin:0 0 16px 0}
+    .input{width:100%;display:flex;gap:8px}
+    input[type="email"]{flex:1;padding:10px;border-radius:8px;border:1px solid rgba(0,0,0,0.1)}
+    button{background:var(--accent);border:none;padding:10px 14px;border-radius:8px;font-weight:600;cursor:pointer}
+    footer{margin-top:18px;color:var(--muted);font-size:13px}
+    a.link{color:var(--accent);text-decoration:none}
+    @media (max-width:880px){
+      .card{grid-template-columns:1fr; padding:20px}
+      .right{order:-1}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card" role="region" aria-label="صفحه به زودی پاک پن">
+      <div class="brand">
+        <div class="logo" aria-hidden="true">
+          <!-- simple SVG logo: sun + panel -->
+          <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="لوگوی پاک پن">
+            <defs>
+              <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+                <stop offset="0" stop-color="#f6bf2d"/>
+                <stop offset="1" stop-color="#ff8a00"/>
+              </linearGradient>
+            </defs>
+            <rect x="6" y="56" width="88" height="30" rx="4" fill="#0a2540"/>
+            <g transform="translate(10,58)">
+              <rect width="78" height="22" fill="#062033" rx="3"/>
+              <g fill="#083a5a" transform="translate(4,3)">
+                <rect x="0" y="0" width="22" height="6" />
+                <rect x="26" y="0" width="22" height="6" />
+                <rect x="52" y="0" width="22" height="6" />
+                <rect x="0" y="8" width="22" height="6" />
+                <rect x="26" y="8" width="22" height="6" />
+                <rect x="52" y="8" width="22" height="6" />
+              </g>
+            </g>
+            <circle cx="70" cy="22" r="14" fill="url(#g)"/>
+            <g stroke="url(#g)" stroke-width="2" stroke-linecap="round" transform="translate(70,22)">
+              <line x1="0" y1="-22" x2="0" y2="-34"/>
+              <line x1="0" y1="22" x2="0" y2="34"/>
+              <line x1="-22" y1="0" x2="-34" y2="0"/>
+              <line x1="22" y1="0" x2="34" y2="0"/>
+            </g>
+          </svg>
+          <div>
+            <div style="font-weight:700;font-size:20px">پاک‌پن</div>
+            <div style="color:var(--muted);font-size:13px">پاک‌پن — سیستم‌های خورشیدی</div>
+          </div>
+        </div>
+
+        <h1>به‌زودی روشنایی آینده با پاک‌پن</h1>
+        <p class="lead">ما در حال آماده‌سازی خدمات طراحی و نصب پنل‌های خورشیدی هستیم. به زودی پروژه‌ها و نمونه‌کارها را ارائه می‌کنیم.</p>
+
+        <div class="kpis" aria-hidden="true">
+          <div class="kpi">پروژه نمونه: در حال آماده‌سازی</div>
+          <div class="kpi">پشتیبانی: pakpan96@gmail.com</div>
+          <div class="kpi">اینستاگرام: @pakpan.energy</div>
+        </div>
+
+        <footer>
+          ایمیل: <a class="link" href="mailto:pakpan96@gmail.com">pakpan96@gmail.com</a> — تلفن: <span style="color:var(--accent)">0912-7942294</span>
+        </footer>
+      </div>
+
+      <div class="right" role="complementary">
+        <div style="text-align:center;">
+          <div class="count" id="count">در راه...</div>
+          <p class="sub">صفحه رسمی پاک‌پن به‌زودی فعال می‌شود</p>
+
+          <form id="notify" onsubmit="event.preventDefault();subscribe();" style="width:100%;display:flex;flex-direction:column;gap:10px;">
+            <div class="input">
+              <input id="email" type="email" placeholder="ایمیل خود را وارد کنید" required>
+              <button type="submit">اطلاع بده</button>
+            </div>
+            <div id="msg" style="font-size:13px;color:#d3e6ff"></div>
+          </form>
+
+          <div style="margin-top:12px;font-size:13px;color:var(--muted)">
+            دنبال ما در:
+            <div style="margin-top:8px"><a class="link" href="https://instagram.com/pakpan.energy" target="_blank">اینستاگرام</a> — <a class="link" href="mailto:pakpan96@gmail.com">ایمیل</a></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script>
+    // simple countdown animation / placeholder
+    (function(){
+      const el = document.getElementById('count');
+      let dots = 0;
+      setInterval(()=>{ dots = (dots+1)%4; el.textContent = 'راه‌اندازی'+'.'.repeat(dots); },700);
+    })();
+
+    function subscribe(){
+      const email = document.getElementById('email').value.trim();
+      const msg = document.getElementById('msg');
+      if(!email){ msg.textContent='ایمیل معتبر وارد کنید.'; return; }
+      // This demo doesn't send anywhere. Provide instructions for connecting to email service.
+      msg.textContent = 'متشکریم! ایمیل شما ثبت شد (نمونه).';
+      document.getElementById('email').value='';
+    }
+  </script>
+</body>
+</html>
